@@ -296,7 +296,7 @@ function App() {
   rel="noopener noreferrer"
   className="inline-flex items-center gap-2 mt-6 bg-gradient-to-r from-blue-600 to-indigo-600 hover:opacity-90 px-5 py-2 rounded-lg transition"
 >
-  📄 View Completion Certificate
+  View Completion Certificate
 </a>
 
           </div>
