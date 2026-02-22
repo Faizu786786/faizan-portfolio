@@ -194,7 +194,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
             {/* Project 1 */}
-            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition flex flex-col justify-between">
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-3">Face Recognition Voting System</h3>
                 <p className="text-gray-400 text-sm mb-4">
