@@ -7,7 +7,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-xl font-bold text-blue-500">Faizan Ali Ansari.</h1>
 
-          <ul className="hidden md:flex gap-8 text-gray-300">
+          <ul className="flex gap-8 text-gray-300">
             <li><a href="#about" className="hover:text-blue-500">About</a></li>
             <li><a href="#education" className="hover:text-blue-500">Education</a></li>
             <li><a href="#skills" className="hover:text-blue-500">Skills</a></li>
