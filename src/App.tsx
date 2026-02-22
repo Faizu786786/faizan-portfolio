@@ -215,7 +215,7 @@ function App() {
             </div>
 
             {/* Project 2 */}
-            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition flex flex-col justify-between">
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-3">AI Voice Assistant</h3>
                 <p className="text-gray-400 text-sm mb-4">
@@ -236,7 +236,7 @@ function App() {
             </div>
 
             {/* Project 3 */}
-            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition flex flex-col justify-between">
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-3">Sorting Visualizer Web App</h3>
                 <p className="text-gray-400 text-sm mb-4">
@@ -267,7 +267,7 @@ function App() {
             Internship Experience
           </h2>
 
-          <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition">
+          <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300">
             
             <h3 className="text-2xl font-semibold mb-2">
             Python Developer Intern – CodSoft
