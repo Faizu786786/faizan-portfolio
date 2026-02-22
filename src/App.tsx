@@ -26,11 +26,10 @@ function App() {
           Hi, I'm <span className="text-blue-500">Faizan</span>
         </h1>
 
-        <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-8">
-          Computer Science Engineering Student passionate about 
-          Full Stack Development, AI Systems, and Building 
-          Scalable Web Applications.
-        </p>
+       <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-8">
+  Passionate Full Stack Developer focused on building scalable web applications,
+  intelligent systems, and clean user-centric digital experiences.
+</p>
 
         <div className="flex gap-4">
         <a 
