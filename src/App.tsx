@@ -1,4 +1,20 @@
+import { useState, useEffect } from "react";
 function App() {
+  const [showButton, setShowButton] = useState(false);
+
+useEffect(() => {
+  const handleScroll = () => {
+    if (window.scrollY > 300) {
+      setShowButton(true);
+    } else {
+      setShowButton(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
   return (
     <div className="bg-black text-white min-h-screen">
 
@@ -483,6 +499,15 @@ function App() {
 
         </div>
       </section>
+
+      {showButton && (
+  <button
+    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+    className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition"
+  >
+    ↑ Top
+  </button>
+)}
 
 
     </div>
