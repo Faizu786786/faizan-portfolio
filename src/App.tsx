@@ -117,7 +117,7 @@ useEffect(() => {
           Graphic Era Hill University, Bhimtal
         </p>
         <p className="text-gray-400 mt-2">
-          Aug 2023 – June 2027 (Expected) • CGPA: 7.06
+          Aug 2023 – June 2027 (Expected) • CGPA: 7.22
         </p>
       </div>
 
