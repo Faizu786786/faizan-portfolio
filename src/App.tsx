@@ -56,7 +56,7 @@ useEffect(() => {
 </a>
 
           <a 
-  href="/Faizan_Ali_Ansari.pdf"
+  href="/faizan.resume.pdf"
   download
   target="_blank"
   rel="noopener noreferrer"
