@@ -43,8 +43,8 @@ useEffect(() => {
         </h1>
 
        <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-8">
-  Passionate Full Stack Developer focused on building scalable web applications,
-  intelligent systems, and clean user-centric digital experiences.
+       Computer Science Engineering student specializing in Data Science,
+       Machine Learning, Full Stack Development, and AI-powered Business Intelligence solutions.
 </p>
 
         <div className="flex gap-4">
@@ -83,8 +83,8 @@ useEffect(() => {
     <p className="text-gray-300 leading-relaxed mb-6">
       My technical interests span across Full Stack Development, Artificial 
       Intelligence, and Data-Driven Systems. I have developed projects such as 
-      a Face Recognition Voting System, an AI-based Voice Assistant, and an 
-      interactive Sorting Visualizer Web Application — focusing on clean 
+      a Enterprise Financial Decision Intelligence Copilot, Face Recognition Voting System,
+      AI-based Voice Assistant, and an interactive Sorting Visualizer Web Application — focusing on clean 
       architecture, real-time processing, and responsive UI design.
     </p>
 
@@ -211,6 +211,37 @@ useEffect(() => {
 
             {/* Project 1 */}
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
+  <div>
+    <h3 className="text-xl font-semibold mb-3">
+      Enterprise Financial Decision Intelligence Copilot
+    </h3>
+
+    <p className="text-gray-400 text-sm mb-4">
+    <p className="text-gray-400 text-sm mb-4">
+Built a Palantir-inspired enterprise intelligence platform that combines
+fraud detection, predictive analytics, KPI monitoring, and interactive
+business dashboards to support financial decision-making using real-world
+transaction data.
+</p>
+    </p>
+
+    <p className="text-blue-400 text-sm mb-4">
+    Python • Pandas • Streamlit • Power BI • Scikit-Learn • Plotly
+    </p>
+  </div>
+
+  <a
+    href="https://github.com/Faizu786786/enterprise-financial-decision-intelligence-copilot.git"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-4 inline-block text-center bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition"
+  >
+    View on GitHub
+  </a>
+</div>
+
+            {/* Project 2 */}
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-3">Face Recognition Voting System</h3>
                 <p className="text-gray-400 text-sm mb-4">
@@ -230,7 +261,7 @@ useEffect(() => {
               </a>
             </div>
 
-            {/* Project 2 */}
+            {/* Project 3 */}
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-3">AI Voice Assistant</h3>
@@ -251,7 +282,7 @@ useEffect(() => {
               </a>
             </div>
 
-            {/* Project 3 */}
+            {/* Project  */}
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-3">Sorting Visualizer Web App</h3>
