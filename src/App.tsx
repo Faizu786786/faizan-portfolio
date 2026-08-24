@@ -207,100 +207,168 @@ useEffect(() => {
             Projects
           </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="grid md:grid-cols-2 gap-8">
 
             {/* Project 1 */}
-            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
-  <div>
-    <h3 className="text-xl font-semibold mb-3">
-      Enterprise Financial Decision Intelligence Copilot
-    </h3>
-
-    <p className="text-gray-400 text-sm mb-4">
-    <p className="text-gray-400 text-sm mb-4">
-Built a Palantir-inspired enterprise intelligence platform that combines
-fraud detection, predictive analytics, KPI monitoring, and interactive
-business dashboards to support financial decision-making using real-world
-transaction data.
-</p>
-    </p>
-
-    <p className="text-blue-400 text-sm mb-4">
-    Python • Pandas • Streamlit • Power BI • Scikit-Learn • Plotly
-    </p>
-  </div>
-
-  <a
-    href="https://github.com/Faizu786786/enterprise-financial-decision-intelligence-copilot.git"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-4 inline-block text-center bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition"
-  >
-    View on GitHub
-  </a>
-</div>
+            <div className="group bg-gray-900 rounded-xl border border-gray-800 hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 overflow-hidden flex flex-col justify-between">
+              <div>
+                <div className="overflow-hidden relative aspect-video border-b border-gray-800">
+                  <img 
+                    src="/projects/financial-copilot.png" 
+                    alt="Enterprise Financial Decision Intelligence Copilot" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-40"></div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-blue-400 transition-colors">
+                    Enterprise Financial Decision Intelligence Copilot
+                  </h3>
+                  <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+                    Built a Palantir-inspired enterprise intelligence platform that combines
+                    fraud detection, predictive analytics, KPI monitoring, and interactive
+                    business dashboards to support financial decision-making using real-world
+                    transaction data.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {["Python", "Pandas", "Streamlit", "Power BI", "Scikit-Learn", "Plotly"].map((tech, i) => (
+                      <span key={i} className="px-2.5 py-1 text-xs font-medium bg-blue-950/80 text-blue-400 rounded-md border border-blue-800/40">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="px-6 pb-6 pt-0">
+                <a
+                  href="https://github.com/Faizu786786/enterprise-financial-decision-intelligence-copilot.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2.5 rounded-lg transition-colors duration-200"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </div>
 
             {/* Project 2 */}
-            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
+            <div className="group bg-gray-900 rounded-xl border border-gray-800 hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 overflow-hidden flex flex-col justify-between">
               <div>
-                <h3 className="text-xl font-semibold mb-3">Face Recognition Voting System</h3>
-                <p className="text-gray-400 text-sm mb-4">
-                  Secure digital voting system using real-time facial verification 
-                  with one-person–one-vote validation.
-                </p>
-                <p className="text-blue-400 text-sm mb-4">
-                  Python • OpenCV • SQLite
-                </p>
+                <div className="overflow-hidden relative aspect-video border-b border-gray-800">
+                  <img 
+                    src="/projects/face-recognition-voting.png" 
+                    alt="Face Recognition Voting System" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-40"></div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-blue-400 transition-colors">
+                    Face Recognition Voting System
+                  </h3>
+                  <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+                    Secure digital voting system using real-time facial verification 
+                    with one-person–one-vote validation.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {["Python", "OpenCV", "SQLite"].map((tech, i) => (
+                      <span key={i} className="px-2.5 py-1 text-xs font-medium bg-blue-950/80 text-blue-400 rounded-md border border-blue-800/40">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               </div>
-              <a 
-                href="https://github.com/Farhan0714/Voting-System-Project" 
-                target="_blank"
-                className="mt-4 inline-block text-center bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition"
-              >
-                View on GitHub
-              </a>
+              <div className="px-6 pb-6 pt-0">
+                <a 
+                  href="https://github.com/Farhan0714/Voting-System-Project" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2.5 rounded-lg transition-colors duration-200"
+                >
+                  View on GitHub
+                </a>
+              </div>
             </div>
 
             {/* Project 3 */}
-            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
+            <div className="group bg-gray-900 rounded-xl border border-gray-800 hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 overflow-hidden flex flex-col justify-between">
               <div>
-                <h3 className="text-xl font-semibold mb-3">AI Voice Assistant</h3>
-                <p className="text-gray-400 text-sm mb-4">
-                  GUI-based voice assistant with speech recognition, 
-                  API integrations, and multithreading support.
-                </p>
-                <p className="text-blue-400 text-sm mb-4">
-                  Python • NLP • Tkinter
-                </p>
+                <div className="overflow-hidden relative aspect-video border-b border-gray-800">
+                  <img 
+                    src="/projects/voice-assistant.png" 
+                    alt="AI Voice Assistant" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-40"></div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-blue-400 transition-colors">
+                    AI Voice Assistant
+                  </h3>
+                  <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+                    GUI-based voice assistant with speech recognition, 
+                    API integrations, and multithreading support.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {["Python", "NLP", "Tkinter"].map((tech, i) => (
+                      <span key={i} className="px-2.5 py-1 text-xs font-medium bg-blue-950/80 text-blue-400 rounded-md border border-blue-800/40">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               </div>
-              <a 
-                href="https://github.com/Faizu786786/AI-Based-Voice-Assistant" 
-                target="_blank"
-                className="mt-4 inline-block text-center bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition"
-              >
-                View on GitHub
-              </a>
+              <div className="px-6 pb-6 pt-0">
+                <a 
+                  href="https://github.com/Faizu786786/AI-Based-Voice-Assistant" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2.5 rounded-lg transition-colors duration-200"
+                >
+                  View on GitHub
+                </a>
+              </div>
             </div>
 
-            {/* Project  */}
-            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition hover:scale-[1.02] transform duration-300 flex flex-col justify-between">
+            {/* Project 4 */}
+            <div className="group bg-gray-900 rounded-xl border border-gray-800 hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 overflow-hidden flex flex-col justify-between">
               <div>
-                <h3 className="text-xl font-semibold mb-3">Sorting Visualizer Web App</h3>
-                <p className="text-gray-400 text-sm mb-4">
-                  Interactive web application to visualize sorting algorithms 
-                  in real-time with backend integration.
-                </p>
-                <p className="text-blue-400 text-sm mb-4">
-                  Flask • JavaScript • HTML • CSS
-                </p>
+                <div className="overflow-hidden relative aspect-video border-b border-gray-800">
+                  <img 
+                    src="/projects/sorting-visualizer.png" 
+                    alt="Sorting Visualizer Web App" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-40"></div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-blue-400 transition-colors">
+                    Sorting Visualizer Web App
+                  </h3>
+                  <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+                    Interactive web application to visualize sorting algorithms 
+                    in real-time with backend integration.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {["Flask", "JavaScript", "HTML5", "CSS3"].map((tech, i) => (
+                      <span key={i} className="px-2.5 py-1 text-xs font-medium bg-blue-950/80 text-blue-400 rounded-md border border-blue-800/40">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               </div>
-              <a 
-                href="https://github.com/Faizu786786/SORTING-VISUALIZER-WEBSITE" 
-                target="_blank"
-                className="mt-4 inline-block text-center bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition"
-              >
-                View on GitHub
-              </a>
+              <div className="px-6 pb-6 pt-0">
+                <a 
+                  href="https://github.com/Faizu786786/SORTING-VISUALIZER-WEBSITE" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2.5 rounded-lg transition-colors duration-200"
+                >
+                  View on GitHub
+                </a>
+              </div>
             </div>
 
           </div>
