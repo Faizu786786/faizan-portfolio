@@ -197,7 +197,7 @@ function App() {
             {/* Hero Quick Stat Cards */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-3xl mb-12">
               <div className="glass-card p-4 rounded-xl text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-cyan-400">7.22</div>
+                <div className="text-2xl sm:text-3xl font-bold text-cyan-400">7.37</div>
                 <div className="text-xs text-slate-400 mt-1 font-medium">CGPA (B.Tech CSE)</div>
               </div>
               <div className="glass-card p-4 rounded-xl text-center">
@@ -340,7 +340,7 @@ function App() {
                   </span>
                   <h3 className="text-xl font-bold text-slate-100">B.Tech in Computer Science & Engineering</h3>
                   <p className="text-cyan-400 text-sm font-medium mt-1">Graphic Era Hill University, Bhimtal</p>
-                  <p className="text-slate-300 text-sm mt-3 font-semibold text-emerald-400">CGPA: 7.22</p>
+                  <p className="text-slate-300 text-sm mt-3 font-semibold text-emerald-400">CGPA: 7.37</p>
                 </div>
               </div>
 
